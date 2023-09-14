@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:glasscube
+    username: sa
+  h2:
+    console:
+      enabled: true
+glasscube:
+  apiVersion: glasskube.eu/v1alpha1
+  kind: Matomo
