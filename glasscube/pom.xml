@@ -11,8 +11,8 @@
 	<groupId>com.codecool</groupId>
 	<artifactId>glasscube</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>glascube</name>
-	<description>Application project for Glascube interview</description>
+	<name>glasscube</name>
+	<description>Simple Project</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -41,12 +41,17 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.dataformat/jackson-dataformat-yaml -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-configuration-processor</artifactId>
+			<optional>true</optional>
+		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.dataformat</groupId>
 			<artifactId>jackson-dataformat-yaml</artifactId>
 			<version>2.15.2</version>
 		</dependency>
+
 	</dependencies>
 
 	<build>

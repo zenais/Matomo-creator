@@ -1,4 +1,4 @@
-package com.codecool.glascube;
+package com.codecool.glasscube;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
